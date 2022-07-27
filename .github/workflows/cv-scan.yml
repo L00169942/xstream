@@ -30,5 +30,6 @@ jobs:
           python -m pip install --upgrade wheel
       - name: Test to check for CVEs for Python requirements and HTML report dependencies
         run: |
-          cve-bin-tool -i="pom.xml"
+           cve-bin-tool -n json -i pom.xml -o report
+
 
