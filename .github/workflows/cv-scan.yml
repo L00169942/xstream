@@ -1,4 +1,4 @@
-name: CVE scan 12
+name: CVE scan Edit
 
 on:
   push:
